@@ -1,0 +1,30 @@
+﻿<Window x:Class="Innovation_II.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Innovation_II"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Margin="0,-3,-0.4,0" Source="pexels-photo-257360.jpeg" Stretch="Fill"/>
+
+        <Label x:Name="Label1" Content="Log på SmartTable" HorizontalAlignment="Left" Margin="316,71,0,0" VerticalAlignment="Top" Height="42" Width="172" FontSize="20">
+            
+        </Label>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Height="23" Margin="340,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Height="23" Margin="340,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <Label x:Name="Label2" Content="Brugernavn" HorizontalAlignment="Left" Margin="365,118,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Label3" Content="Adgangskode" HorizontalAlignment="Left" Margin="365,199,0,0" VerticalAlignment="Top" Width="95" Height="37"/>
+        <Button x:Name="Log_On" Content="Log på" HorizontalAlignment="Left" Margin="360,306,0,0" VerticalAlignment="Top" Width="75" Height="24" Click="Log_On_Click"/>
+        <Label x:Name="StartLabel1" Content="Velkommen til dit skrivebord&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" Visibility="Hidden"/>
+        <Image x:Name="Crome" Margin="10,62,675.6,254" Source="Chrome-icon-796x398 (2).jpg" Stretch="Fill" Visibility="Hidden"/>
+        <Image x:Name="GDrev" Margin="193,62,453.6,254" Source="google-drive-icon (2).jpg" Stretch="Fill" Visibility="Hidden"/>
+        <Image x:Name="One_Drive" Margin="10,202,675.6,131" Source="One Drive (2).jpg" Stretch="Fill" Visibility="Hidden"/>
+        <Image x:Name="Fronter" Margin="181,227,482.6,131" Source="Udklip.PNG" Stretch="Fill" Visibility="Hidden"/>
+        <Image x:Name="Word" Margin="440,62,244.6,241" Source="Word.png" Stretch="Fill" Visibility="Hidden"/>
+        <Image x:Name="Onenote" Margin="622,62,40.6,241" Source="Microsoft_OneNote_2013_logo.svg.png" Stretch="Fill" Visibility="Hidden"/>
+        <Image x:Name="Tandhjul" Margin="440,202,239.6,114" Source="settings-logo-png-5.png" Stretch="Fill" Visibility="Hidden"/>
+
+    </Grid>
+</Window>
